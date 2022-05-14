@@ -1,0 +1,431 @@
+* {box-sizing:border-box}
+/*header*/
+.dh {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+
+}
+
+li {
+  float: left;
+}
+
+
+ li a, .dropbtn {
+  display: inline-block;
+  color: rgb(39, 21, 21);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color:#7cc68d;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.anh1{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwbHhUpbS3IgYPu2T6IKme-6qA1mjKYkdhgRqlA2xX9lSA0UOPwJ1yyz6hFxZGj7DkKds&usqp=CAU); 
+  padding: 24px 24px;
+background-size: 50px 50px;
+
+}
+
+.anh2{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVAs2Q9MZoiHJD_0CpApjbp-OiinL3zziK2e3CX2RMPFezWBUigkDG0joLUCqDiw-Mlas&usqp=CAU); 
+  padding: 24px 24px;
+background-size: 45px 45px;
+}
+
+.anh3{
+ float:left;
+ background: url(https://cdnstepup.r.worldssl.net/Images/common/logo-master-1.png);
+ padding: 22px 22px ;
+background-size: 44px 44px;
+float:left;
+
+
+}
+
+ 
+.than{
+background-image: linear-gradient(90deg,#2b87da 0%,#2cced3 100%);
+
+  
+background-position: 0%;
+
+padding-top: 60px;
+padding-bottom: 60px;
+
+  
+}
+
+
+
+
+.blog{
+color: #ffffff!important;
+letter-spacing: -1.7px;
+line-height: 6em;
+text-align: left;
+font-size: 20px;
+padding-left:200px;
+padding-bottom:40px;
+padding-top:-40px;
+
+}
+.chu{
+color: #ffff;
+text-align:left;
+width: 45%;
+height: 150px;
+line-height:40px;
+font-size:20px;
+padding-top: 0px;
+
+
+}
+.nut{
+color: #ffffff!important;
+  border-width: 0px!important;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif!important;
+  background-color: #ffaa00;
+  
+padding-top:10px;
+padding-bottom:10px;
+}
+
+
+/*huy*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.book{
+  display: flex;
+}
+.book-img{}
+.book-gioiThieu{
+  margin-top: 68px;
+  margin-left: 150px;
+}
+.book-title{
+  color: #ff8c00;
+}
+.sub-title{}
+.btn-book{
+  color: #fff;
+  background-color:#ff8c00 ;
+  padding: 10px 28px;
+  border-radius: 24px;
+}
+
+.btn-book:hover{
+  background-color: rgb(207, 105, 105);
+  color: #333;
+}
+.body{
+    position: relative;
+}
+.chat{
+    width: 16vw;
+    height: 10vh;
+    background-color:#03a84e;
+    text-align: center;
+    line-height:10vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color:#fff;
+    border-radius:10px;
+}
+.chat:hover{
+    cursor: pointer;
+    background-color:#00c257;
+    color:#000000;
+    border: 2px solid rgb(214, 78, 78);
+}
+
+.close{
+    position: absolute;
+    display: block;
+    right: 1vw;
+    top: 2vh;
+    font-size:24px;
+    padding-bottom: 2vh;
+    /* width: 100%; */
+}
+
+.close:hover{
+  cursor: pointer;
+}
+.support-chat{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 22vw;
+  background-color: #03a84e;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+
+}
+.text-chat{
+  color: #fffad1;
+  padding: 3vh 1vw;
+  padding-top: 6vh;
+  font-size: 20px;
+  width: 18vw;
+  margin: auto ;
+
+}
+.form-chat{
+    background-color: #ccc;
+    padding-bottom:2vh;
+}
+.form-chat input{
+  border:0;
+  border-radius: 5px;
+  margin-top:2vh;
+  width: 18vw;
+  height: 6vh;
+}
+
+.btn-chat{
+  background-color:#03a84e;
+  color: #fffad1;
+  width: 14vw;
+  height: 6vh;
+  border-radius:10px;
+  text-align: center;
+  line-height: 6vh;
+  margin: 0 auto;
+  margin-top: 4vh;
+}
+
+.btn-chat:hover{
+  cursor: pointer;
+  background-color:#4faa78;
+  color:#000000;
+}
+.begin-chat{
+  position: fixed;
+  background-color:#ccc;
+  height:60vh;
+  width: 22vw;
+  display:none;
+  right: 0;
+  bottom: 0;
+  border-radius:10px;
+}
+.begin-chat p{
+  margin-left: 16px;
+}
+.content-chat{
+  background-color:#f2f2f2;
+}
+.form-input-chat{
+  display:flex;
+}
+.input-chat{
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  height:6vh;
+  border: 0;
+  background-color:#f2f2f2;
+}
+.content-chat {
+  background-color: #f2f2f2;
+ width: 100%;
+ height: 72%;
+ overflow-y: scroll;
+ display: flex;
+ flex-direction: column-reverse;
+ align-items: flex-end;
+ padding: 0 0 0 5px;
+
+}
+.content-chat li{
+  background-color: #5880ec;
+  margin: 5px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+
+/* footer */
+.b1{
+  position:-ms-page;
+  bottom: 0px;
+  left: 0;
+
+  width: 100%;
+  
+  background: #333;
+    
+  text-align: center;    
+  font-family: "Open Sans",Arial,sans-serif;
+  line-height: 1.7em;
+  
+}
+.btap{
+ 
+
+box-sizing: border-box;
+width: 100%;
+text-align: left;
+
+padding: 55px 50px;
+  bottom: 0 px;
+  
+}
+.baitap1{
+  display: flex;
+}
+.diachi,.hotro,.nguoi{
+  display: inline-block;
+vertical-align: top;
+  color: #fff;
+ display: inline-block;
+  
+  
+  
+}
+h1{
+  margin-left: 10%;
+  
+  border-bottom: 14px ;
+  
+}
+.donvihotro{
+  margin-left: 2%;
+}
+
+
+.tt1,.tt2,.tt3,.nutso1,.donvi1,.donvi2,.donvi3,.donvi4,.csach3,.csach4
+{
+  padding-bottom: 14px;
+}
+.nutso1,.nutso2
+{
+ background-image: none;
+}
